@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-className Home extends Component {
+class Home extends Component {
   render() {
     return <div> Matches</div>;
   }
