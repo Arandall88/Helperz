@@ -17,11 +17,20 @@ class Login extends Component {
                 <label for="password">Password</label>
               </div>
             </div>
+            <div className="row">
+              <div className="col">
+                <button
+                  className="btn waves-effect waves-light"
+                  type="submit"
+                  name="action"
+                >
+                  Submit
+                </button>
+              </div>
+            </div>
           </form>
         </div>
-
       </div>
-
     );
   }
 }
