@@ -1,9 +1,10 @@
 import React from "react";
+import "./NavBar.css";
 
 const NavBar = () => {
   return (
     <div>
-      <nav style={{ backgroundColor: "#C200FB" }}>
+      <nav>
         <div className="nav-wrapper">
           <a href="/" className="brand-logo">
             Logo
