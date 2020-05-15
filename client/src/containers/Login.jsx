@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 class Login extends Component {
-  state ={
+  state = {
       email: "",
       password:"",
   };
@@ -11,10 +11,11 @@ class Login extends Component {
         [name]: value,
       });
   };
+  
   handleSubmit = (event) => {
     event.preventDefault();
 
-    // this.props.history.push("/dashboard");
+    this.props.history.push("/dashboard");
   };
 
   render() {

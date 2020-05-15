@@ -5,11 +5,11 @@ const NavBar = () => {
   return (
     <div>
       <nav>
-        <div classNameName="nav-wrapper">
-          <a href="/" classNameName="brand-logo">
+        <div className="nav-wrapper">
+          <a href="/" className="brand-logo">
             Logo
           </a>
-          <ul id="nav-mobile" classNameName="right hide-on-med-and-down">
+          <ul id="nav-mobile" className="right hide-on-med-and-down">
             <li>
               <a href="sass.html">Sass</a>
             </li>

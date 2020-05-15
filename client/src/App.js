@@ -18,9 +18,7 @@ function App(props) {
           <Route exact path="/">
             <Home />
           </Route>
-          <Route exact path="/login">
-            <Login  {...props}/>
-          </Route>
+          <Route  path="/login" component={(props) => <Login {...props} />}   />
           <Route exact path="/complete-profile">
             <CompleteProfile />
           </Route>
@@ -41,5 +39,6 @@ function App(props) {
     </>
   );
 }
+
 
 export default App;

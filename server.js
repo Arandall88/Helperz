@@ -17,6 +17,30 @@ app.get("/api/config", (req, res) => {
   });
 });
 
+  const users = [
+    { email: "jelly@gmail.com", 
+    password: "password"
+   },
+
+    {
+      email: "trophy@gmail.com",
+      password: "password"
+    },
+    {
+      email: "rocket@gmail.com",
+      password: "password"
+    }
+  ];
+
+    app.post("/api/users", (req, res) => {
+      const { email, password } = req.body;
+      // db.User.findOne({email: email})
+      const foundUser = users.filter(user => user.email === email);
+      console.log(foundUser);
+    });
+
+
+
 app.use(express.static("client/build"));
 
 app.get("*", (req, res) => {
