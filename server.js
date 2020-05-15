@@ -35,8 +35,18 @@ app.get("/api/config", (req, res) => {
     app.post("/api/users", (req, res) => {
       const { email, password } = req.body;
       // db.User.findOne({email: email})
-      const foundUser = users.filter(user => user.email === email);
-      console.log(foundUser);
+      const foundUserArray = users.filter(user => user.email === email);
+      console.log(foundUserArray);
+      if(foundUserArray.length > 0) {
+        res.json(foundUserArray[0])
+      }else {
+        res.status(400);
+        res.json({
+            message: "No user found with that email",
+            data: null,
+         });
+        }
+        res.json
     });
 
 

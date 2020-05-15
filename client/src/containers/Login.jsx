@@ -1,26 +1,54 @@
 import React, { Component } from "react";
+import axios from "axios";
+// import { response } from "express";
 class Login extends Component {
   state = {
-      email: "",
-      password:"",
+    email: "",
+    password: "",
+    error: "Invalid UserName and Password",
   };
 
   handleInputChange = (event) => {
-      const {name, value} = event.target;
-      this.setState({
-        [name]: value,
-      });
+    const { name, value } = event.target;
+    this.setState({
+      [name]: value,
+      error: "",
+    });
   };
-  
+
   handleSubmit = (event) => {
     event.preventDefault();
 
-    this.props.history.push("/dashboard");
+    axios
+      .post("/api/users", {
+        email: this.state.email,
+        password: this.state.password,
+      })
+      .then((response) => {
+        console.log(response);
+        this.props.history.push(`/dashboard/${response.data.data._id}`);
+      })
+      .catch((err) => {
+        console.log(err);
+        console.log(err.response.data.message);
+        this.setState({ error: err.response.data.message });
+      });
   };
 
   render() {
     return (
       <div className="container">
+        {this.state.error && (
+          <div
+            className="row"
+            id="login-alert"
+            style={{ backgroundColor: "#B24C63", paddingTop: 3 }}
+          >
+            <div className="col" style={{ textAlign: "center", float: "none" }}>
+        <p style={{ color: "#FF4C63" }}> {this.state.error}</p>
+            </div>
+          </div>
+        )}
         <div className="row">
           <form className="col s12" onSubmit={this.handleSubmit}>
             <div className="row">
@@ -60,6 +88,7 @@ class Login extends Component {
                 </button>
               </div>
             </div>
+            
           </form>
         </div>
       </div>
