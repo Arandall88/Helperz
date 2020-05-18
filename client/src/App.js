@@ -4,7 +4,7 @@ import NavBar from "./components/shared/NavBar/NavBar";
 import Home from "./containers/Home/Home";
 import Login from "./containers/Login";
 import CompleteProfile from "./containers/CompleteProfile";
-import Dashboard from "./containers/Dashboard";
+import Dashboard from "../src/Dashboard/Dashboard";
 import Matches from "./containers/Matches";
 import FindNewMatch from "./containers/FindNewMatch";
 import NotFound from "./containers/NotFound";
