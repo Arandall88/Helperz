@@ -7,17 +7,17 @@ const NavBar = () => {
       <nav>
         <div className="nav-wrapper">
           <a href="/" className="brand-logo">
-            Logo
+            Home
           </a>
           <ul id="nav-mobile" className="right hide-on-med-and-down">
             <li>
-              <a href="sass.html">Sass</a>
+              <a href="index.html">Volunteer</a>
             </li>
             <li>
-              <a href="badges.html">Components</a>
+              <a href="badges.html">Users</a>
             </li>
             <li>
-              <a href="collapsible.html">JavaScript</a>
+              <a href="collapsible.html">Testimonials</a>
             </li>
           </ul>
         </div>

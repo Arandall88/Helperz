@@ -1,11 +1,12 @@
 import React, { Component } from "react";
 import axios from "axios";
+import Input from "../components/shared/Input/Input";
 // import { response } from "express";
 class Login extends Component {
   state = {
     email: "",
     password: "",
-    error: "Invalid UserName and Password",
+    error: "",
   };
 
   handleInputChange = (event) => {
@@ -25,11 +26,11 @@ class Login extends Component {
         password: this.state.password,
       })
       .then((response) => {
-        console.log(response);
+        console.log(response.data.data);
         this.props.history.push(`/dashboard/${response.data.data._id}`);
       })
       .catch((err) => {
-        console.log(err);
+        // console.log(err);
         console.log(err.response.data.message);
         this.setState({ error: err.response.data.message });
       });
@@ -52,7 +53,7 @@ class Login extends Component {
         <div className="row">
           <form className="col s12" onSubmit={this.handleSubmit}>
             <div className="row">
-              <div className="input-field col s6">
+              {/* <div className="input-field col s6">
                 <input
                   id="email"
                   type="email"
@@ -62,7 +63,15 @@ class Login extends Component {
                   onChange={this.handleInputChange}
                 />
                 <label htmlFor="email">Email</label>
-              </div>
+              </div> */}
+              <Input
+                id="email"
+                type="email"
+                name ="email"
+                className="validate"
+                value={this.state.email}
+                handleChange= {this.handleInputChange}
+              />
             </div>
             <div className="row">
               <div className="input-field col s6">
