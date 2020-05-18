@@ -3,8 +3,7 @@
   
   ## ![helperz](https://user-images.githubusercontent.com/59499644/82220130-dbbfce00-98e3-11ea-9a60-c1b2b06d5f90.jpg)
   
-  # Help a family in need by volunteering to deliver food pantry
-                  items with contactless delivery.Since this pandemic started,
+  # Help a family in need by volunteering to deliver food pantry items with contactless delivery.Since this pandemic started,
                   alot of families and children have had to go without food.
                   Become a helper and lets encourage each other to always pay it
                   forward with kindess and compassion. We are all in this
@@ -13,6 +12,7 @@
                   up to one big piece. I encourage you to make your pieces add
                   up to a whole.We will make it through this together. Become a
                   Helper today! 
+                  
 ### Borrowed parts of for-rover template
 
 #### 
