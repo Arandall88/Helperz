@@ -14,10 +14,20 @@ class Home extends Component {
               <h1 style={{ color: "#5438dc" }}>Welcome to Helperz!</h1>
 
               <span className="white-text">
-                I am a very simple card. I am good at containing small bits of
-                information. I am convenient because I require little markup to
-                use effectively. I am similar to what is called a panel in other
-                frameworks.
+                <strong>
+                  Help a family in need by volunteering to deliver food pantry
+                  items with contactless delivery.Since this pandemic started,
+                  alot of families and children have had to go without food.
+                  Become a helper and lets encourage each other to always pay it
+                  forward with kindess and compassion. We are all in this
+                  together and we all deserve to have what we need.It is up to
+                  us as a whole to make a difference. Lots of small pieces add
+                  up to one big piece. I encourage you to make your pieces add
+                  up to a whole.We will make it through this together. Become a
+                  Helper today! Search for a food pantry below.
+                </strong>{" "}
+                
+                
               </span>
             </div>
           </div>
@@ -62,10 +72,12 @@ class Home extends Component {
                 <div class="col s12 m5">
                   <div class="card-panel teal">
                     <span class="white-text">
-                      I am a very simple card. I am good at containing small
-                      bits of information. I am convenient because I require
-                      little markup to use effectively. I am similar to what is
-                      called a panel in other frameworks.
+                    <h2>
+                      
+                        It's never too late to Help!
+                      </h2>{" "}
+                      
+                
                     </span>
                   </div>
                 </div>

@@ -21,7 +21,7 @@ class Home extends Component {
         <div className="container">
           <div className="row">
             <div className="col" style={{ textAlign: "center", float: "none" }}>
-              <h2>Volunteer Food Pantry Delivery</h2>
+              <h2>Volunteer Food Pantry Delivery. <br></br> You can request a delivery by clicking on the request tab and you will be matched with a volunteer</h2>
             </div>
           </div>
         </div>

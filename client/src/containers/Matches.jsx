@@ -4,9 +4,7 @@ class Home extends Component {
   render() {
     return (
       <div>
-        <div id="request">
-
-        </div>
+        <div id="request"></div>
         <div className="container">
           <div className="row">
             <div>
@@ -15,13 +13,13 @@ class Home extends Component {
                   <div className="row">
                     <div className="col s12 m7">
                       <div className="card">
-                        <div className="card-image">
-                        </div>
+                        <div className="card-image"></div>
                         <div className="card-content">
                           <p>
-                            I am a very simple card. I am good at containing
-                            small bits of information. I am convenient because I
-                            require little markup to use effectively.
+                            <h3>
+                              Please request a delivery below and you will be
+                              matched with a volunteer.
+                            </h3>{" "}
                           </p>
                         </div>
                         <div className="card-action">
@@ -32,11 +30,7 @@ class Home extends Component {
                   </div>
                 </div>
                 <div>
-                  <img
-                    class="materialboxed"
-                    width="650"
-                    src=""
-                  ></img>
+                  <img class="materialboxed" width="650" src=""></img>
                 </div>
                 <div className="container">
                   <h1>Request a delivery!</h1>
@@ -70,7 +64,7 @@ class Home extends Component {
                   <div className="row">
                     <div className="input-field col s12">
                       <input id="email" type="email" className="validate" />
-                      <label htmlFor="email">Email</label>
+                      <label htmlFor="Phone number">Phone Number</label>
                     </div>
                   </div>
 
@@ -81,7 +75,7 @@ class Home extends Component {
                         type="password"
                         className="validate"
                       />
-                      <label htmlFor="password">Password</label>
+                      <label htmlFor="address">Address</label>
                     </div>
                   </div>
 
