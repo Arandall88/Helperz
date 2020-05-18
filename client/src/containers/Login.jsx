@@ -30,7 +30,7 @@ class Login extends Component {
         this.props.history.push(`/dashboard/${response.data.data._id}`);
       })
       .catch((err) => {
-        // console.log(err);
+        console.log(err);
         console.log(err.response.data.message);
         this.setState({ error: err.response.data.message });
       });

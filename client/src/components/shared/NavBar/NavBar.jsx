@@ -11,13 +11,13 @@ const NavBar = () => {
           </a>
           <ul id="nav-mobile" className="right hide-on-med-and-down">
             <li>
-              <a href="index.html">Volunteer</a>
+              <a href="matches">Request Delivery</a>
             </li>
             <li>
-              <a href="badges.html">Users</a>
+              <a href="dashboard">Dashboard</a>
             </li>
             <li>
-              <a href="collapsible.html">Testimonials</a>
+              <a href="complete-profile">Volunteer</a>
             </li>
           </ul>
         </div>
