@@ -1,5 +1,4 @@
-                 ![helperz](https://user-images.githubusercontent.com/59499644/82220130-dbbfce00-98e3-11ea-9a60-c1b2b06d5f90.jpg)
-                 
+
                  
                  ## Volunteer Food Pantry Delivery
                   Help a family in need by volunteering to deliver food pantry
@@ -12,3 +11,6 @@
                   up to one big piece. I encourage you to make your pieces add
                   up to a whole.We will make it through this together. Become a
                   Helper today! 
+                  
+               ![helperz](https://user-images.githubusercontent.com/59499644/82220130-dbbfce00-98e3-11ea-9a60-c1b2b06d5f90.jpg)
+                 
