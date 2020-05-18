@@ -1,8 +1,12 @@
 import React, { Component } from "react";
+import "./CompleteProfile.css";
 class CompleteProfile extends Component {
   render() {
     return (
       <div>
+        <div id="volunteer">
+
+        </div>
         <div className="container">
           <div className="row">
             <div className="col">

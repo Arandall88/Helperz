@@ -11,6 +11,7 @@ import NotFound from "./containers/NotFound";
 
 function App(props) {
   return (
+    
     <>
       <Router>
         <NavBar />
@@ -37,6 +38,8 @@ function App(props) {
         </Switch>
       </Router>
     </>
+
+    
   );
 }
 
