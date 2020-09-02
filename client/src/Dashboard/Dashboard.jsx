@@ -11,7 +11,7 @@ class Home extends Component {
             style={{ textAlign: "center", float: "none" }}
           >
             <div className="card-panel blue">
-              <h1 style={{ color: "#5438dc" }}>Welcome to Helperz!</h1>
+              <h1 style={{ color: "#5438dc" }}></h1>
 
               <span className="white-text">
                 <strong>

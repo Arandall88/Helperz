@@ -5,8 +5,8 @@ const NavBar = () => {
   return (
     <div>
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">
-          Navbar
+        <a class="navbar-brand" href="index.html">
+        Helperz
         </a>
         <button
           class="navbar-toggler"
@@ -27,23 +27,23 @@ const NavBar = () => {
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">
-                Features
+              <a class="nav-link" href="./Matches.jsx">
+                Request Delivery
               </a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">
-                Pricing
+                Volunteer
               </a>
             </li>
             <li class="nav-item">
               <a
-                class="nav-link disabled"
+                class="nav-link " href='#'
                 href="#"
                 tabindex="-1"
-                aria-disabled="true"
+                aria-disabled="false"
               >
-                Disabled
+                Testimonials
               </a>
             </li>
           </ul>
