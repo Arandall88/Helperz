@@ -1,20 +1,10 @@
-# Volunteer Food Pantry delivery App.
-## Help a family in need today.
+## It's never too late to HELP.
+
   
   ## ![helperz](https://user-images.githubusercontent.com/59499644/82220130-dbbfce00-98e3-11ea-9a60-c1b2b06d5f90.jpg)
   
-  # Help a family in need by volunteering to deliver food pantry items with contactless delivery.Since this pandemic started,
-                  alot of families and children have had to go without food.
-                  Become a helper and lets encourage each other to always pay it
-                  forward with kindess and compassion. We are all in this
-                  together and we all deserve to have what we need.It is up to
-                  us as a whole to make a difference. Lots of small pieces add
-                  up to one big piece. I encourage you to make your pieces add
-                  up to a whole.We will make it through this together. Become a
-                  Helper today! 
-                  
-### Borrowed parts of for-rover template
+  # Helperz is a volunteer food pantry delivery app. Users can sign up to help a family in need by volunteering to deliver food pantry items with contactless delivery. A user  can request a delivery as well as sign up to deliver. Each request is matched with the closest volunteer.
+   
 
-#### https://heelperz.herokuapp.com/
-#### https://github.com/Arandall88/Helperz   Link to Heroku App.
-#### https://docs.google.com/document/d/1ivp0CV1taQTDoYXz4nKwAwjCxDpI-ozHJH2Rl-ESRhI/edit?usp=sharing
+#### Deployed App https://heelperz.herokuapp.com/
+#### App Intention https://docs.google.com/document/d/1ivp0CV1taQTDoYXz4nKwAwjCxDpI-ozHJH2Rl-ESRhI/edit?usp=sharing
