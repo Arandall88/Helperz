@@ -1,7 +1,8 @@
 ## It's never too late to HELP.
 
   
-  ## ![helperz](https://user-images.githubusercontent.com/59499644/92539733-f78b0f00-f207-11ea-8989-4ff02171c122.jpg)
+  ## ![helperz (4)](https://user-images.githubusercontent.com/59499644/92539826-4638a900-f208-11ea-8969-9f2dbd86f2ca.jpg)
+
 
   
   # Helperz is a volunteer food pantry delivery app. Users can sign up to help a family in need by volunteering to deliver food pantry items with contactless delivery. A user  can request a delivery as well as sign up to deliver. Each request is matched with the closest volunteer.
