@@ -28,7 +28,7 @@ const NavBar = () => {
             </li>
             <li class="nav-item">
               <a class="nav-link" href="./Matches.jsx">
-                Request Delivery
+                Request
               </a>
             </li>
             <li class="nav-item">
